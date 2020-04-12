@@ -99,7 +99,7 @@ app.use((error, req, res, next) => {
 
 //Server + db connection
 mongoose.connect(
-    'mongodb+srv://alexsplatter:aleksivchenko1344@clusternodejscourse-tufbq.mongodb.net/messages?retryWrites=true&w=majority',
+    'this should be your server',
     { useNewUrlParser: true, useUnifiedTopology: true }
 ).then(res => {
     app.listen(8080);
